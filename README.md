@@ -3,9 +3,11 @@
 
 
 How to execute:
-	User must carefully enter input of initial and goal configuration
-	User must enter 3 lines where each line contains 3 values each separated by a single whitespace (3x3 matrix format)
-        0 must be entered at the position of the blank tile
+	User must carefully enter input of initial and goal configuration.
+	
+	User must enter 3 lines where each line contains 3 values each separated by a single whitespace (3x3 matrix format).
+	
+        0 must be entered at the position of the blank tile.
 
 	Example: 
 	Enter start configuration
