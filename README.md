@@ -3,6 +3,7 @@
 
 
 How to execute:
+
 	User must carefully enter input of initial and goal configuration.
 	
 	User must enter 3 lines where each line contains 3 values each separated by a single whitespace (3x3 matrix format).
@@ -25,8 +26,11 @@ How to execute:
 	
 	
 Explanation of code:
+
 	Class node defined whose object has attributes are its parent node, matrix representation, cost to reach goal node, steps to reach given node
-	We then define various functions
+	
+	We then define various functions:
+	
 	copy is used to obtain exact replica of a matrix 
 	find is used to obtain the position of a certain value in a matrix
 	successors is used to obtain a list of all valid configurations which can arise from a given configuration (only 1 step allowed)
@@ -37,7 +41,7 @@ Explanation of code:
 	inversions returns the number of inversions in a matrix( an inversion is any pair of tiles i and j where i < j but i appears after j when considering the board in row-major order)
 	isSolvable is used to check if it is possible to reach goal configuration
 	
-	In the main function -
+	In the main function :
 	Input initial and goal configuration in 3x3 list
 	If not solvable, print Goal not reachable and program terminates
 	If solvable,
